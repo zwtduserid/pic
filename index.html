@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, user-scalable=0,initial-scale=1.0" />
-    <title>依依相册</title>
+    <title>小A教程图床服务</title>
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link
       rel="stylesheet"
@@ -14,7 +14,7 @@
   </head>
   <body>
     <div class="tab-view view-box">
-      <h2 class="intro">小依的成长画册</h2>
+      <h2 class="intro">小A教程图床服务</h2>
       <ul class="image-container">
       </ul>
     </div>
@@ -131,7 +131,7 @@
           return;
         }
         //验证
-        var validIdentifiers = ["依依妈妈","依依爸爸","依依爷爷","依依奶奶"];
+        var validIdentifiers = ["小A教程图床服务"];
         var localIdentifier = localStorage.getItem('identifier');
         if(!(localIdentifier && validIdentifiers.indexOf(localIdentifier) > -1)){
           //打开弹框要求核验身份
